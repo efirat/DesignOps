@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-button {
+.a-button {
   padding: 16px;
   width: auto;
   background: #FF6000;
@@ -15,7 +15,7 @@ button {
   color: #FFFFFF;
 }
 
-.button-disabled {
+.a-button.button-disabled {
   cursor: default;
   opacity: 0.38;
   pointer-events: none;

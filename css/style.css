@@ -119,10 +119,12 @@ button.icon.start>i, .a-btn.icon.start>i{
   color:#FF6000;
 }
 .a-btn-variant:hover {
-  background: #BF4800;
+  background: #FFBF99;
+  color: #BF4800;
 }
 .a-btn-variant:active {
-  background: #FF904C;
+  background: none;
+  color:#FF6000;  
 }
 
 /* a-btn-variant */

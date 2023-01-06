@@ -24,6 +24,7 @@ button,.a-btn {
   color: #FFFFFF;
   text-decoration: none;
   display: inline-block;
+  outline: none;
 }
 button:hover,.a-btn:hover {
   background: #BF4800;

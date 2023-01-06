@@ -1,22 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-button {
-  padding: 16px;
-  width: auto;
-  background: #FF6000;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
+*{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 1;
-  color: #FFFFFF;
 }
 
-.button-disabled {
+button,.a-button {
+  padding: 12px;
+  width: auto;
+  background: #FF6000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;  
+  color: #FFFFFF;
+}
+button:hover,.a-button:hover {
+  background: #BF4800;
+}
+.a-button-primary:active {
+  background: #FF904C;
+}
+button:focus,.a-button:focus {
+  box-shadow: 0px 0px 0px 3px rgba(108, 132, 250, 0.2);
+}
+button:disabled,.a-button-disabled {
   cursor: default;
   opacity: 0.38;
   pointer-events: none;
 }
+
+button[class*=button-outline-]{
+  border: 2px solid #FF6000;
+}
+
+/* button-primary */
+.a-button-primary {
+  background: #FF6000;
+}
+.a-button-primary:hover {
+  background: #BF4800;
+}
+.a-button-primary:active {
+  background: #FF904C;
+}
+
+.a-button-outline-primary {
+  background: none;
+  color: #FF6000;
+}
+.a-button-outline-primary:hover {
+  background: #BF4800;
+}
+.a-button-outline-primary:active {
+  background: #FF904C;
+}
+/* button-primary */
+
+
+
+/* button-secondary */
+.a-button-secondary {
+  background: #6B83FA;
+}
+.a-button-secondary:hover {
+  background: #5365BF;
+}
+.a-button-secondary:active {
+  background: #99AAFF;
+}
+/* button-secondary */
+
+
+
+/* button-danger */
+.a-button-danger {
+  background: #FA0000;
+}
+.a-button-danger:hover {
+  background: #BF0000;
+}
+.a-button-danger:active {
+  background: #FF4C4C;;
+}
+/* button-danger */
+
+
+/* button-success */
+.a-button-success {
+  background: #008A09;
+}
+.a-button-success:hover {
+  background: #006907;
+}
+.a-button-success:active {
+  background: #36B23E;;
+}
+/* button-success */
+
+
+
+

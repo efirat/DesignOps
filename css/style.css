@@ -55,7 +55,20 @@ button.icon, .a-btn.icon{
 }
 button.icon>i,.a-btn.icon>i{
   letter-spacing: normal;
-  height: 20px;
+  height: 24px; 
+  width: 24px;
+  font-size: 20px;
+  line-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+button.icon.end>i, .a-btn.icon.end>i{
+  margin-left: 8px;
+}
+button.icon.start>i, .a-btn.icon.start>i{
+  margin-right: 8px;
 }
 /* icon */
 
